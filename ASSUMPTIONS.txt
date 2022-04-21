@@ -1,0 +1,33 @@
+************************
+Assumptions & Notes
+*************************
+
+1.Every expression has the combination positive & negative along with mathematical operator +,-,*,/ and
+  left & right parenthesis. otherwise it can be considered as invalid.
+
+2. Assumed that Integer in the expression or result is not greater than INTEGER.MAX_VALUE. So this is not handled.
+
+3 .Given that all operators are integer based , we don't need to bother about decimal or rounding the result.
+
+4. In order to create test cases , junit dependency has been added.
+
+5. We can run the application using the class 'ParserApp'
+
+6. Input & Output text files are stored in the 'files' folder
+
+7. We can run all the test cases either by the 'ParserSuite' or by right click the project and click 'Run All Tests'
+
+8. If any of lines is invalid , program will not halt & the error will be printed in the output and
+    parse the other lines. If we want to  add the error in the same line of output file ,
+    we can uncomment the line 27 in ParserApp class
+
+9. This java project has been created using spring boot initializr and developed in IntelliJ IDE with Java 11 version.
+
+10. Code comments are intentionally avoided to follow the principle that code should be
+  self explanatory by name of variables ,methods & classes
+
+11. Even Though task can be completed in single java class , codes are scattered by multiple classese
+    for the reasons such as for maintaining high cohesion & loose coupling in order to create test cases for various indiviudla
+    functionality & for using patterns.
+
+12. thanks for reading. 
