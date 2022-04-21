@@ -17,7 +17,6 @@ public class ParserApp {
 	public static void main(String[] args) throws IOException {
 
 		Parser parser= ParserFactory.getParser(ParserType.MATH);
-		System.out.println(Integer.MAX_VALUE);
 
 		List<String> parsedContent = ParserFileUtil.loadFile(INPUT_FILE).stream().map(line -> {
 			StringBuilder convertedLine = new StringBuilder(line);
